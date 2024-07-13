@@ -48,7 +48,7 @@ a, .btn-link {
 }
 
 .bg {
-    background-image: url('/images/deers-88991.jpg');
+    background-image: url('/images/scam_backdrop.png');
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,3 +71,18 @@ a, .btn-link {
         font-weight: bold;
         text-align: center;
     }
+
+.free-flags {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
